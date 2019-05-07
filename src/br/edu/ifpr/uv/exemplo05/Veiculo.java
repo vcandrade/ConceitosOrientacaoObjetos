@@ -12,11 +12,11 @@ package br.edu.ifpr.uv.exemplo05;
  */
 public class Veiculo {
 
-    private String modelo;
-    private String fabricante;
-    private int ano;
-    private int numeroPassageiros;
-    private String combustivel;
+    protected String modelo;
+    protected String fabricante;
+    protected int ano;
+    protected int numeroPassageiros;
+    protected String combustivel;
     
     public void abastecer() {
         
